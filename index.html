@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>岡本株式会社</title>
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+    <script>
+        $(document).ready(function(){
+          $('.top').bxSlider({
+            auto:true,
+            mode:"fade",
+            speed:1000,
+            controls:false,
+            pager:false,
+          });
+        });
+    </script>
+
+    <link rel="stylesheet" href="./css/slick.css">
+</head>
+<body>
+    <header> 
+        <div class="head">
+            <div class="logo">Logo</div>
+            <ul>
+                <li class="menu1">会社概要</li>
+                <li class="menu2">採用情報</li>
+                <li class="menu3">サービス</li>
+                <li class="menu4">問い合わせ</li>
+            </ul>
+        </div>
+    </header>
+    
+    <div class="top_image">
+        <div class="top">
+            <div><img src="./images/top1.webp"></div>
+            <div><img src="./images/top2.webp"></div>
+            <div><img src="./images/top3.webp"></div>
+        </div>
+        <div class="catchcopy">
+            <h1>日常に非日常を</h1>
+            <h2>～身体と心に安らぎの時間を～</h2>
+        </div>
+    </div>
+    <div class="news_topics">
+        <div class="news">
+            <h1>NEWS</h1>
+            <h3>お知らせ</h3>
+        </div>
+        <div class="news_group">
+            <div class="news1">
+                <div><img src="./images/news1.jpg"> </div>
+                <div><h6>七五三撮影会</h6></div>
+                <p>２０２２年８月１５日に代表取締役社長の七五三の撮影会がスタジオアリスにて朝１０時から４時間行われました。</p>
+            </div>
+            <div class="news2">
+                <div><img src="./images/news2.webp"> </div>
+                <div><h6>ケーキ食べ放題イベントについて</h6></div>
+                <p>２０１７年９月２７日に当社設立１周年となりました。日本一高価なぶどう（ルビーロマン）を１房使った縦２０ｃｍ×横３５ｃｍ×高さ５ｃｍ×のケーキの食べ放題イベントを開催いたしました。（参考価格：ルビーロマン・初売り価格１５０万円（２０２２年）</p>
+            </div>
+            <div class="news3">
+                <div><img src="./images/news3.jpg"> </div>
+                <div><h6>ムカデに注意</h6></div>
+                <p>今年度はムカデが大量に発生をしており、当社社員が噛まれる事例が２件発生をしております。噛まれたは４０℃前後のお湯で１５分間洗い流すようにすると今後のかゆみが抑えることができますが注意をするようにお願いいたします。</p>
+            </div>
+            <div class="news4">
+                <div><img src="./images/news4.jpg"> </div>
+                <div><h6>暴飲暴食に注意</h6></div>
+                <p>肉などの消化の悪い食べ物は便秘になりやすく、それに伴い虚血性大腸炎になりやすくなります。それにより、救急車を呼びあまりの激痛で救急隊員を押し飛ばし、心電図を破壊しそうになるケースが起こっております。暴飲暴食には注意をするようにお願いいたします。
+                </p>
+            </div>  
+        </div>
+    </div>
+    <div class="conpany_group">
+        <div class="conpany_waku">
+            <div class="conpany">
+                <h1>CONPANY</h1>
+                <h3>会社概要</h3>
+            </div>
+            <div class="conpany_top">
+                <div><img src="./images/conpany.jpg"> </div>
+                <div class="conpany_topic">
+                    <h2>岡本株式会社</h2>
+                    <p>設立：２０１６年９月２７日<br>本社所在地：高知市<br>代表取締役社長：望杏<br>従業員：５名<br>事業内容：飲食業、サービス業、ホテル業<br>資本金：１００円<br>売上金額：１千万円（２０２１年）</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="service_group">
+        <div class="service">
+            <h1>SERVICE</h1>
+            <p>サービス</p>
+        </div>
+        <div class="service_img">
+            <div class="img"><img src="images/service1.webp"></div>
+            <div class="img"><img src="images/service2.webp"></div>
+            <div class="img"><img src="images/service3.jpg"></div>
+            <div class="img"><img src="images/service4.webp"></div>
+            <div class="img"><img src="images/service5.jpg"></div>
+            <div class="img"><img src="images/service6.webp"></div>
+        </div>
+        <script src="./js/slick.min.js"></script>
+        <script>
+            $(function (){
+                $(".service_img").slick({
+                    autoplay:true,
+                    autoplaySpeed:0,
+                    speed:5000,
+                    arrows:false,
+                    swipe:false,
+                    slidesToShow:4,
+                    cssEase:"linear",
+                    pauseOnFocus:false,
+                    pauseOnHover:true,
+                });
+            });
+        </script>
+    </div>
+    <div class="contact_group">
+        <div class="contact">
+            <div class="contact_waku">
+                <h1>CONTACT</h1>
+                <p>問い合わせ</p>
+            </div>
+            <form action="XXXX" method="XXXX">
+               <label>氏  名</label>
+               <input type="text" name="XXXX" size="30" placeholder="氏名">
+               <label>メ ー ル</label>
+               <input type="text" name="XXXX" size="30" placeholder="メールアドレス">
+               <label>電話番号</label>
+               <input type="text" name="XXXX" size="30" placeholder="0XX-XXX-XXXX">
+               <label>内  容</label><textarea name="XXX" rows="4" cols="32" placeholder="問い合わせ内容"></textarea>
+               <div class="submit_waku"><input type="submit" value="送信" class="submit"></div>
+            </form>
+        </div>
+    </div>
+    <footer>
+        <p>🌎2022 manabiya-sakura</p>
+    </footer>
+    <script src="./js/script.js"></script>
+</body>
+</html>
